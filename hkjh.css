@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+   align-items: center;
+   padding: 20px;
+}
+.nav-link{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+#manu-toggle {
+    display: none;
+}
+.manu-icon{
+    display: none;
+}
+@media (max-width: 768px){
+  .manu-icon{
+    display: block;
+  }
+
+   .nav-link{
+    flex-direction: column;
+    position:absolute;
+    top: 60px;
+    left: -100%;
+    width: 100;
+    text-align: center;
+  }
+#manu-toggle:checked + .manu-icon + .nav-link{left: 0%;}
+  
+  
+}
