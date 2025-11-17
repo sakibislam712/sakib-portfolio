@@ -16,7 +16,7 @@
 .manu-icon{
     display: none;
 }
-@media (max-width: 768px){
+@media (max-width: 768px){git
   .manu-icon{
     display: block;
   }
@@ -30,6 +30,11 @@
     text-align: center;
   }
 #manu-toggle:checked + .manu-icon + .nav-link{left: 0%;}
+.pricing{
+  text-align: center;
+  padding: 40px;
+  background: #ffff00;
+}
   
   
 }
